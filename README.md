@@ -100,12 +100,18 @@ git branch <brnachName>
 
 git branch checkout <brnachName>
 
-If you want to merg branches, you must checkout other branch always commit the code.
-//margin with other branch
-git marge main -m "comment" --------- to merge a branch with main branch you should use this git command and you must checkout the branch from main branch
+If you want to merge branches, you must checkout other branch always commit the code.
+
+### margin with other branch
+
+#### to merge a branch with main branch you should use this git command and you must stay in the main branch
+
+git marge main -m "comment"
 
 =================================================
+
 push codes to remote repositor
+
 =================================================
 
 git push origin <brnachName> (to send the code at remote repository )
@@ -117,20 +123,27 @@ If you are sure your local master has the latest changes you want on remote, the
 git push --force origin <brnachName>
 
 =================================================
+
 The git set-upstream allows you to set the default remote branch for your current local branch. By default, every pull command sets the master as your default remote branch.
+
 =================================================
 
 git push --set-upstream origin main
 
 =================================================
+
 change the git branch name
+
 =================================================
 
 git branch --move <currentBranchName> <theBranchName_you_want_to_set>
 
 =================================================
+
 delete git branch from the remote repository
+
 =================================================
+
 This command will show you the branhes that are in remote repository
 
 git branch --all
@@ -138,8 +151,5 @@ git branch --all
 After git branch --all command you will see the branches from the remote repository and you can delete the branch with below command
 
 git push origin --delete <branch_name_you_want_to_delete>
-
-++++++++++++++++++++++++++++++++++
-hello world++++++++++++++++++++++++
 
 ---
