@@ -75,7 +75,10 @@ git branch --move <currentBranchName> <theBranchName_you_want_to_set>
 =================================================
 delete git branch from the remote repository
 =================================================
+This command will show you the branhes that are in remote repository
 
-git branch --all (will show you the branhes that are in remote repository)
+git branch --all
 
-git push origin --delete <branch_name_you_want_to_delete> (will delete the branch from the remote repository )
+After git branch --all command you will see the branches from the remote repository and you can delete the branch with below command
+
+git push origin --delete <branch_name_you_want_to_delete>
