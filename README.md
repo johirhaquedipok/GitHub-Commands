@@ -82,7 +82,7 @@ git --cached filesName.extension
 
 git rm -r <foldersName>
 
-### git branch
+### Git Branch Commands
 
 #### will show you how many branch are there and which branch you are in
 
@@ -90,65 +90,53 @@ git branch
 
 ### make a new branch
 
-#### will make a new branch
-
 git branch <brnachName>
 
 ### go to the other branch
 
-#### will take you to your choosing branch
-
 git branch checkout <brnachName>
 
-If you want to merge branches, you must checkout other branch always commit the code.
+---
 
-### margin with other branch
+#### To notice
+
+If you want to merge branches, you must checkout from other branch and always commit the code before checkout.
+
+---
+
+### margin with Main Branch.
 
 #### to merge a branch with main branch you should use this git command and you must stay in the main branch
 
 git marge main -m "comment"
 
-=================================================
+## push codes to remote repositor
 
-push codes to remote repositor
-
-=================================================
+#### with this command your local code(codes inside the pc) will uploaded to github/remote repository
 
 git push origin <brnachName> (to send the code at remote repository )
 
-=================================================
-If you are sure your local master has the latest changes you want on remote, then do git push --force
-=================================================
+### If you are sure your local master has the latest changes you want on remote then use following command
 
 git push --force origin <brnachName>
 
-=================================================
+### git set up-stream
 
-The git set-upstream allows you to set the default remote branch for your current local branch. By default, every pull command sets the master as your default remote branch.
-
-=================================================
+##### The git set-upstream allows you to set the default remote branch for your current local branch. By default, every pull command sets the master as your default remote branch.
 
 git push --set-upstream origin main
 
-=================================================
-
-change the git branch name
-
-=================================================
+### change the git branch name
 
 git branch --move <currentBranchName> <theBranchName_you_want_to_set>
 
-=================================================
+### delete git branch from the remote repository
 
-delete git branch from the remote repository
-
-=================================================
-
-This command will show you the branhes that are in remote repository
+##### This command will show you the branches that are in remote repository
 
 git branch --all
 
-After git branch --all command you will see the branches from the remote repository and you can delete the branch with below command
+##### After git branch --all command you will see the branches from the remote repository and you can delete the branch with below command
 
 git push origin --delete <branch_name_you_want_to_delete>
 
