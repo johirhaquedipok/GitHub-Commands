@@ -1,59 +1,106 @@
-## officila git Documentation
+# Github and Git core commands I need
 
-For more to read from official git documentation : https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+Here I discussed about github and git core commands that are using regulary.
 
-## for git initialization
+## Officila Git Documentation
+
+## For Git Initialization (the very first step )
 
 git init
 
-## for cloning a git repository
+## Cloning a git repository
 
-git clone
+git clone <link_here>
 
-stage all changes
-git add --all ----- for staging all files and folder inside the parent folder
-git add --A ------ same as git add --all
-git add . -------- this command will stage all files only inside the working directory _\*\*.
-git add _ --------- if i delete a file or folder from a staged files or folder , this command will not stage the deleted file or folder
-git add \*.filesExtension ----- this command will stage all files with the same extension name
+## Stage All Changes
 
-// reset all staged commands
-git reset ----------- for reset all command we've done and it will return only changes not the deleted files
+### For staging all files and folder inside the parent folder
 
-//git reset with deleted files
-git reset --hard ----- like we deleted a file and want to also reset to change stating then we will use this command and it will roll back the file and stage
+git add --all
 
-// recommended is to use git add . from the parent directory
-git commit -m "summary of your changs to the files" ------- to upload or commit in the local repository
+### same as git add --all
 
-// reset all commited commands
-git reset HEAD~ -------------- if i undo all commands after commiting and want to go to staging format
+git add --A
 
-// remove or delete a file using git command
-git rm filesname.extension -------- this command will delete the selected file and also stage the changes.
+### This command will stage all files only inside the working directory. So, this command is recommended to use inside the parent directory
 
-// remove a file forcefully
+git add .
 
-git rm filesname.extension -f ----------this command will delete the files even if i change anyting in that particular file.
+### if i delete a file or folder from a staged files or folder , this command will not stage the deleted file or folder
 
-// chached files
+git add \*
 
-git --cached filesName.extension --------- this command will not delete the file but update to the staging directory
+### this command will stage all files with the same extension name
 
-// remove all folder inside all folder
+git add \* .filesExtension
 
-git rm -r foldersName -------- this command will delete the parent folder inside all folder
+### reset all staged commands
 
-///git branch//
-git branch ------ will show you how many branch are there and which branch you are in
+#### for reset all command we've done and it will return only changes not the deleted files
 
-// make a new branch
-git branch <brnachName> ----- will make a new branch
+git reset
 
-// go to the other branch
-git branch checkout <brnachName>e ---- will take you to your choosing branch
+### git reset with deleted files
 
-\*\*\* before you checkout other branch always commit the code .
+#### like we deleted a file and want to also reset to change stating then we will use this command and it will roll back the file and stage
+
+git reset --hard
+
+### recommended is to use git add . from the parent directory
+
+#### to upload or commit in the local repository
+
+git commit -m "summary of your changes to the files"
+
+### reset all commited commands
+
+#### if I undo all commands after commiting and want to go to staging format
+
+git reset HEAD~
+
+### remove or delete a file using git command
+
+#### this command will delete the selected file and also stage the changes.
+
+git rm filesname.extension
+
+### remove a file forcefully
+
+#### this command will delete the files even if i change anyting in that particular file.
+
+git rm filesname.extension -f
+
+### chached files
+
+#### this command will not delete the file but update to the staging directory
+
+git --cached filesName.extension
+
+### remove all folder inside all folder
+
+#### this command will delete the parent folder inside all folder
+
+git rm -r <foldersName>
+
+### git branch
+
+#### will show you how many branch are there and which branch you are in
+
+git branch
+
+### make a new branch
+
+#### will make a new branch
+
+git branch <brnachName>
+
+### go to the other branch
+
+#### will take you to your choosing branch
+
+git branch checkout <brnachName>
+
+If you want to merg branches, you must checkout other branch always commit the code.
 //margin with other branch
 git marge main -m "comment" --------- to merge a branch with main branch you should use this git command and you must checkout the branch from main branch
 
