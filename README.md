@@ -1,7 +1,14 @@
+## officila git Documentation
+
 For more to read from official git documentation : https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
 
-git init ---------- for git initialization
-git clone -------- for cloning a git repository
+## for git initialization
+
+git init
+
+## for cloning a git repository
+
+git clone
 
 stage all changes
 git add --all ----- for staging all files and folder inside the parent folder
@@ -89,5 +96,3 @@ git push origin --delete <branch_name_you_want_to_delete>
 hello world++++++++++++++++++++++++
 
 ---
-
-## hello world
