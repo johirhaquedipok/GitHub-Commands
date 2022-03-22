@@ -6,7 +6,7 @@ Here I discussed about github and git core commands that are using regulary.
 
 ## For Git Initialization (the very first step )
 
-git init
+> git init
 
 ## Cloning a git repository
 
