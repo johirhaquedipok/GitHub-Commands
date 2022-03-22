@@ -10,7 +10,7 @@ Here I discussed about github and git core commands that are using regulary.
 
 ## Cloning a git repository
 
-git clone <link_here>
+`git clone <link_here>`
 
 ## Stage All Changes
 
