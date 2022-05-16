@@ -181,3 +181,12 @@ Here I discussed about github and git core commands that are using regulary.
 `git push origin --delete <branch_name_you_want_to_delete>`
 
 ---
+
+###check remote link(default added link after cloning a repo)
+`git remote`
+
+###delete remote(default added link after cloning a repo)origin
+`git remote remove origin`
+
+### add remote link(the link you want to add)
+`git remote add origin <the_from_the_git_repository_you_want_to_add>`
