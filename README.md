@@ -4,7 +4,7 @@ Here I discussed about github and git core commands that are using regulary.
 
 ## Officila Git Documentation Git Branching
 
-(GIT BRANCING]https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
+[GIT BRANCING]https://git-scm.com/book/en/v2/Git-Branching-Branch-Management
 
 ## For Git Initialization (the very first step )
 
